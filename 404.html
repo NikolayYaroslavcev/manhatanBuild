@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8">
+    <title>Страница не найдена</title>
+    <meta name="description" content="Название сайта">
+    <meta name="author" content="Media Line">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content=""><!-- ICO-->
+    <link rel="shortcut icon" type="image/png" href="./img/favicon/Atom100x100.png">
+    <link rel="apple-touch-icon" href="./img/favicon/Atom57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/Atom72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/Atom114x114.png">
+    <link rel="stylesheet" type="text/css" href="./css/critical.css">
+    <link rel="stylesheet" type="text/css" href="./css/404.css"><!--MAIN-CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-body">
+          <div class="header-logo"><a class="logo-imag"><img src="img/header/logo.png" alt="logo"></a></div>
+          <div class="header-navigation">
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="./home">Главная</a></li>
+                <li class="menu__item"><a class="menu__link" href="./menu">Меню</a></li>
+                <li class="menu__item"><a class="menu__link" href="./playbill">Афиша</a></li>
+                <li class="menu__item"><a class="menu__link" href="./collaboration">Сотрудничество</a></li>
+                <li class="menu__item"><a class="menu__link" href="./gallery">Галерея</a></li>
+                <li class="menu__item"><a class="menu__link" href="./news">Новости</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-button"><a href="#">Бронировать</a></div>
+          <button class="header-burger" data-action="burger-menu-switcher"><span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <!--  .header-container-->
+      <!--    button(data-action="burger-menu-switcher").header-burger-->
+      <!--      -for(let i=0; i<3; i++)-->
+      <!--        span-->
+      <!--    .header-vi-->
+      <!--      button.vi-sw-on-btn-->
+      <!--        span Версия для слабовидящих-->
+      <!--  include ./vi-->
+      <!--.header-dropdown(data-burger-menu)-->
+      <!--  .container Header-dropdown-->
+    </header>
+    <main class="main">
+      <div class="main-blank">
+        <div class="container">
+          <div class="page-404">
+            <div class="page-404__bg"><img class="lazy" data-src="./img/global/404.svg" width="844" height="323" alt=""></div>
+            <div class="page-404__content">
+              <div class="page-404__title">
+                <h1 class="h2">Страница не найдена</h1>
+              </div>
+              <div class="page-404__desc">
+                <div class="text text-gray">Извините. Содержимое, которое вы ищете, не существует. Либо оно был удален, либо вы неправильно ввели ссылку.</div>
+              </div>
+              <div class="page-404__link"><a href="#">Вернуться на главную</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <p>Copyright © 2022. Все права защищены.</p>
+          <p>Разработано d-e-n.ru</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./libs/jquery.min.js"></script>
+    <script src="./js/scripts/utils.js"></script>
+    <script src="./js/scripts/const.js"></script>
+    <script src="./libs/libs.min.js"></script>
+    <script defer src="./js/scripts/fv.js"></script>
+    <script defer src="./js/scripts/vi.js"></script>
+    <script src="./js/scripts/scripts.js"></script>
+  </body>
+</html>

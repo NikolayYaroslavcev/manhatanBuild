@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <meta name="description" content="Название сайта">
+    <meta name="author" content="Media Line">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content=""><!-- ICO-->
+    <link rel="shortcut icon" type="image/png" href="./img/favicon/Atom100x100.png">
+    <link rel="apple-touch-icon" href="./img/favicon/Atom57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/Atom72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/Atom114x114.png">
+    <link rel="stylesheet" type="text/css" href="./css/critical.css">
+    <link rel="stylesheet" type="text/css" href="./libs/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/mp.css"><!--MAIN-CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-body">
+          <div class="header-logo"><a class="logo-imag"><img src="img/header/logo.png" alt="logo"></a></div>
+          <div class="header-navigation">
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="./home">Главная</a></li>
+                <li class="menu__item"><a class="menu__link" href="./menu">Меню</a></li>
+                <li class="menu__item"><a class="menu__link" href="./playbill">Афиша</a></li>
+                <li class="menu__item"><a class="menu__link" href="./collaboration">Сотрудничество</a></li>
+                <li class="menu__item"><a class="menu__link" href="./gallery">Галерея</a></li>
+                <li class="menu__item"><a class="menu__link" href="./news">Новости</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-button"><a href="#">Бронировать</a></div>
+          <button class="header-burger" data-action="burger-menu-switcher"><span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <!--  .header-container-->
+      <!--    button(data-action="burger-menu-switcher").header-burger-->
+      <!--      -for(let i=0; i<3; i++)-->
+      <!--        span-->
+      <!--    .header-vi-->
+      <!--      button.vi-sw-on-btn-->
+      <!--        span Версия для слабовидящих-->
+      <!--  include ./vi-->
+      <!--.header-dropdown(data-burger-menu)-->
+      <!--  .container Header-dropdown-->
+    </header>
+    <main>
+      <section class="playbill">
+        <div class="container">
+          <div class="playbill-wrapper">
+            <div class="playbill-poster">
+              <div class="poster-about">
+                <div class="poster-bnt"><a href="#">Since 1996</a></div>
+                <h1 class="poster-title">True. Fontanka. Underground.</h1>
+              </div>
+            </div>
+            <div class="playbill-when">
+              <div class="when-tabs">
+                <div class="tabs-items"><a class="active tabs-item" data-tab="tab_01">Ближайшие</a><a class="tabs-item" data-tab="tab_02">скоро</a></div>
+              </div>
+              <div class="tabs-body">
+                <div class="tabs-block active" id="tab_01">
+                  <div class="tabs-imag"><img src="../../img/main/playbill/Rectangle 32.jpg"><img src="../../img/main/playbill/Rectangle 33.jpg"><img src="../../img/main/playbill/Rectangle 34.jpg"><img src="../../img/main/playbill/Rectangle 35.jpg"></div>
+                </div>
+                <div class="tabs-block hidden" id="tab_02">
+                  <div class="tabs-imag"><img src="../../img/main/playbill/Rectangle 35.jpg"><img src="../../img/main/playbill/Rectangle 34.jpg"><img src="../../img/main/playbill/Rectangle 33.jpg"><img src="../../img/main/playbill/Rectangle 32.jpg"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="kitchen">
+        <div class="container">
+          <div class="kitchen-wrapper">
+            <div class="kitchen-about">
+              <div class="kitchen-button"><a href="#">Top “Manhattan” menu</a></div>
+              <div class="kitchen-title">Кухня</div>
+            </div>
+            <div class="slider">
+              <div class="slider__line">
+                <div class="slider__wrap">
+                  <div class="slider-block">
+                    <div class="block-imag"><img src="img/main/kitchen/RectangleOne.png" alt="блюда"></div>
+                    <div class="block-about">
+                      <div class="about-item">
+                        <h3 class="item-title">Amet donec.</h3>
+                        <p class="item-price">550 ₽</p>
+                      </div>
+                      <p class="about-sub-title">200 гр</p>
+                      <p class="about-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                  </div>
+                  <div class="slider-block">
+                    <div class="block-imag"><img src="img/main/kitchen/RectangleTwo.png" alt="блюда"></div>
+                    <div class="block-about">
+                      <div class="about-item">
+                        <h3 class="item-title">Amet donec.</h3>
+                        <p class="item-price">550 ₽</p>
+                      </div>
+                      <p class="about-sub-title">200 гр</p>
+                      <p class="about-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                  </div>
+                  <div class="slider-block">
+                    <div class="block-imag"><img src="img/main/kitchen/RectangleThree.png" alt="блюда"></div>
+                    <div class="block-about">
+                      <div class="about-item">
+                        <h3 class="item-title">Amet donec.</h3>
+                        <p class="item-price">550 ₽</p>
+                      </div>
+                      <p class="about-sub-title">200 гр</p>
+                      <p class="about-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                  </div>
+                  <div class="slider-block">
+                    <div class="block-imag"><img src="img/main/kitchen/RectangleFour.png" alt="блюда"></div>
+                    <div class="block-about">
+                      <div class="about-item">
+                        <h3 class="item-title">Amet donec.</h3>
+                        <p class="item-price">550 ₽</p>
+                      </div>
+                      <p class="about-sub-title">200 гр</p>
+                      <p class="about-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                  </div>
+                  <div class="slider-block">
+                    <div class="block-imag"><img src="img/main/kitchen/RectangleFive.png" alt="блюда"></div>
+                    <div class="block-about">
+                      <div class="about-item">
+                        <h3 class="item-title">Amet donec.</h3>
+                        <p class="item-price">550 ₽</p>
+                      </div>
+                      <p class="about-sub-title">200 гр</p>
+                      <p class="about-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                  </div>
+                  <div class="slider-block">
+                    <div class="block-imag"><img src="img/main/kitchen/RectangleSix.png" alt="блюда"></div>
+                    <div class="block-about">
+                      <div class="about-item">
+                        <h3 class="item-title">Amet donec.</h3>
+                        <p class="item-price">550 ₽</p>
+                      </div>
+                      <p class="about-sub-title">200 гр</p>
+                      <p class="about-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                  </div>
+                  <div class="slider-block">
+                    <div class="block-imag"><img src="img/main/kitchen/RectangleSeven.png" alt="блюда"></div>
+                    <div class="block-about">
+                      <div class="about-item">
+                        <h3 class="item-title">Amet donec.</h3>
+                        <p class="item-price">550 ₽</p>
+                      </div>
+                      <p class="about-sub-title">200 гр</p>
+                      <p class="about-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                  </div>
+                  <div class="slider-block">
+                    <div class="block-imag"><img src="img/main/kitchen/RectangleEight.png" alt="блюда"></div>
+                    <div class="block-about">
+                      <div class="about-item">
+                        <h3 class="item-title">Amet donec.</h3>
+                        <p class="item-price">550 ₽</p>
+                      </div>
+                      <p class="about-sub-title">200 гр</p>
+                      <p class="about-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__wrap">
+                  <div class="slider-block">
+                    <div class="block-imag"><img src="img/main/kitchen/RectangleOne.png" alt="блюда"></div>
+                    <div class="block-about">
+                      <div class="about-item">
+                        <h3 class="item-title">Amet donec.</h3>
+                        <p class="item-price">550 ₽</p>
+                      </div>
+                      <p class="about-sub-title">200 гр</p>
+                      <p class="about-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                  </div>
+                  <div class="slider-block">
+                    <div class="block-imag"><img src="img/main/kitchen/RectangleOne.png" alt="блюда"></div>
+                    <div class="block-about">
+                      <div class="about-item">
+                        <h3 class="item-title">Amet donec.</h3>
+                        <p class="item-price">550 ₽</p>
+                      </div>
+                      <p class="about-sub-title">200 гр</p>
+                      <p class="about-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                  </div>
+                  <div class="slider-block">
+                    <div class="block-imag"><img src="img/main/kitchen/RectangleOne.png" alt="блюда"></div>
+                    <div class="block-about">
+                      <div class="about-item">
+                        <h3 class="item-title">Amet donec.</h3>
+                        <p class="item-price">550 ₽</p>
+                      </div>
+                      <p class="about-sub-title">200 гр</p>
+                      <p class="about-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                  </div>
+                  <div class="slider-block">
+                    <div class="block-imag"><img src="img/main/kitchen/RectangleOne.png" alt="блюда"></div>
+                    <div class="block-about">
+                      <div class="about-item">
+                        <h3 class="item-title">Amet donec.</h3>
+                        <p class="item-price">550 ₽</p>
+                      </div>
+                      <p class="about-sub-title">200 гр</p>
+                      <p class="about-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                  </div>
+                  <div class="slider-block">
+                    <div class="block-imag"><img src="img/main/kitchen/RectangleOne.png" alt="блюда"></div>
+                    <div class="block-about">
+                      <div class="about-item">
+                        <h3 class="item-title">Amet donec.</h3>
+                        <p class="item-price">550 ₽</p>
+                      </div>
+                      <p class="about-sub-title">200 гр</p>
+                      <p class="about-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                  </div>
+                  <div class="slider-block">
+                    <div class="block-imag"><img src="img/main/kitchen/RectangleOne.png" alt="блюда"></div>
+                    <div class="block-about">
+                      <div class="about-item">
+                        <h3 class="item-title">Amet donec.</h3>
+                        <p class="item-price">550 ₽</p>
+                      </div>
+                      <p class="about-sub-title">200 гр</p>
+                      <p class="about-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                  </div>
+                  <div class="slider-block">
+                    <div class="block-imag"><img src="img/main/kitchen/RectangleOne.png" alt="блюда"></div>
+                    <div class="block-about">
+                      <div class="about-item">
+                        <h3 class="item-title">Amet donec.</h3>
+                        <p class="item-price">550 ₽</p>
+                      </div>
+                      <p class="about-sub-title">200 гр</p>
+                      <p class="about-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                  </div>
+                  <div class="slider-block">
+                    <div class="block-imag"><img src="img/main/kitchen/RectangleOne.png" alt="блюда"></div>
+                    <div class="block-about">
+                      <div class="about-item">
+                        <h3 class="item-title">Amet donec.</h3>
+                        <p class="item-price">550 ₽</p>
+                      </div>
+                      <p class="about-sub-title">200 гр</p>
+                      <p class="about-text">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="slider__btn-prev"><img src="img/main/kitchen/left.png"></button>
+              <button class="slider__btn-next"><img src="img/main/kitchen/right.png"></button>
+            </div>
+            <div class="kitchen-menu"><a href="#">Все меню</a></div>
+          </div>
+        </div>
+      </section>
+      <section class="top">
+        <div class="container">
+          <div class="top-wrapper">
+            <div class="top-events"><a class="button" href="#">Top “Manhattan” events</a>
+              <h2 class="events-title">Банкеты</h2>
+              <div class="event-about">
+                <p class="events-text-one">Quam massa pretium et venenatis. Fringilla sagittis, arcu massa, in sem viverra consequat. Tempus sed est interdum eget nisi, nec fames. Eget amet hac varius aliquam. Mattis egestas suspendisse convallis eu arcu et aliquet.</p>
+                <p class="events-text-two">Porttitor risus sociis vitae nunc id lacus eget felis. Viverra et purus nibh ut. Sed ac leo sit posuere vulputate sed morbi. Donec gravida at turpis sed pulvinar. A nibh non consectetur morbi in arcu, in pellentesque mauris.</p>
+                <p class="events-text-three">Eu sodales netus faucibus interdum interdum platea massa egestas. Facilisis donec gravida pretium diam semper at id eleifend.</p>
+              </div>
+              <div class="events-button"><a href="#">Подробнее</a></div>
+            </div>
+            <div class="top-img"></div>
+            <div class="top-tourists top-events"><a class="button" href="#">Top “Manhattan” tourists</a>
+              <h2 class="events-title">Туристы</h2>
+              <div class="event-about">
+                <p class="events-text-one">Quam massa pretium et venenatis. Fringilla sagittis, arcu massa, in sem viverra consequat. Tempus sed est interdum eget nisi, nec fames. Eget amet hac varius aliquam. Mattis egestas suspendisse convallis eu arcu et aliquet.</p>
+                <p class="events-text-two">Porttitor risus sociis vitae nunc id lacus eget felis. Viverra et purus nibh ut. Sed ac leo sit posuere vulputate sed morbi. Donec gravida at turpis sed pulvinar. A nibh non consectetur morbi in arcu, in pellentesque mauris.</p>
+                <p class="events-text-three">Eu sodales netus faucibus interdum interdum platea massa egestas. Facilisis donec gravida pretium diam semper at id eleifend.</p>
+              </div>
+              <div class="events-button"><a href="#">Подробнее</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="tehrader">
+        <div class="container-new">
+          <div class="tehrader-wrapper">
+            <div class="tehrader-header"><a class="button" href="#">Top “Manhattan” party</a>
+              <h2 class="tehrader-title">ТЕхрайдер</h2>
+            </div>
+            <div class="tehrader-contents">
+              <div class="footer-information">
+                <div class="information spollers" data-spollers data-one-spoller>
+                  <div class="footer-information-content spollers__item">
+                    <div class="information-title spollers__title" data-spoller>Loudspeakers</div>
+                    <nav class="information-body spollers__body">
+                      <ul class="information-list">
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Top 600W x 2">Acoustic system BELL Top 600W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Mid 600W x 2">Acoustic system BELL Mid 600W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Sub 1000W x 2">Acoustic system BELL Sub 1000W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Front monitor Yamaha SM12V 300w x 2">Front monitor Yamaha SM12V 300w x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Backside monitor Dynacord 500W x 2">Backside monitor Dynacord 500W x 2</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="footer-information-content spollers__item">
+                    <div class="information-title spollers__title" data-spoller>Amplifier</div>
+                    <nav class="information-body spollers__body">
+                      <ul class="information-list">
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Top 600W x 2">Acoustic system BELL Top 600W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Mid 600W x 2">Acoustic system BELL Mid 600W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Sub 1000W x 2">Acoustic system BELL Sub 1000W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Front monitor Yamaha SM12V 300w x 2">Front monitor Yamaha SM12V 300w x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Backside monitor Dynacord 500W x 2">Backside monitor Dynacord 500W x 2</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="footer-information-content spollers__item">
+                    <div class="information-title spollers__title" data-spoller>FOH</div>
+                    <nav class="information-body spollers__body">
+                      <ul class="information-list">
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Top 600W x 2">Acoustic system BELL Top 600W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Mid 600W x 2">Acoustic system BELL Mid 600W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Sub 1000W x 2">Acoustic system BELL Sub 1000W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Front monitor Yamaha SM12V 300w x 2">Front monitor Yamaha SM12V 300w x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Backside monitor Dynacord 500W x 2">Backside monitor Dynacord 500W x 2</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="footer-information-content spollers__item">
+                    <div class="information-title spollers__title" data-spoller>Backline</div>
+                    <nav class="information-body spollers__body">
+                      <ul class="information-list">
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Top 600W x 2">Acoustic system BELL Top 600W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Mid 600W x 2">Acoustic system BELL Mid 600W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Sub 1000W x 2">Acoustic system BELL Sub 1000W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Front monitor Yamaha SM12V 300w x 2">Front monitor Yamaha SM12V 300w x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Backside monitor Dynacord 500W x 2">Backside monitor Dynacord 500W x 2</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="footer-information-content spollers__item">
+                    <div class="information-title spollers__title" data-spoller>Microphone set</div>
+                    <nav class="information-body spollers__body">
+                      <ul class="information-list">
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Top 600W x 2">Acoustic system BELL Top 600W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Mid 600W x 2">Acoustic system BELL Mid 600W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Sub 1000W x 2">Acoustic system BELL Sub 1000W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Front monitor Yamaha SM12V 300w x 2">Front monitor Yamaha SM12V 300w x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Backside monitor Dynacord 500W x 2">Backside monitor Dynacord 500W x 2</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="footer-information-content spollers__item">
+                    <div class="information-title spollers__title" data-spoller>DJ equipment</div>
+                    <nav class="information-body spollers__body">
+                      <ul class="information-list">
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Top 600W x 2">Acoustic system BELL Top 600W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Mid 600W x 2">Acoustic system BELL Mid 600W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Acoustic system BELL Sub 1000W x 2">Acoustic system BELL Sub 1000W x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Front monitor Yamaha SM12V 300w x 2">Front monitor Yamaha SM12V 300w x 2</a></li>
+                        <li class="information-item"><a class="information-link" href="./Backside monitor Dynacord 500W x 2">Backside monitor Dynacord 500W x 2</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <!--.tehrader-popap-->
+              <div class="tehrader-sound">
+                <h3 class="sound-title">Звукорежиссеры клуба МАНХЭТТЕН</h3>
+                <div class="sound-blocks">
+                  <div class="sound-block"><img src="img/main/tehrader/izotov.png" alt="Изотов Константин">
+                    <h4 class="block-title">Изотов Константин</h4>
+                    <div class="block-icons"><a href="#">
+                        <svg class="icon">
+                          <use href="./img/main/tehrader/icons/vk.svg#vk"></use>
+                        </svg></a><a href="#">
+                        <svg class="icon">
+                          <use href="./img/main/tehrader/icons/telegram.svg#telegram"></use>
+                        </svg></a></div>
+                  </div>
+                  <div class="sound-block"><img src="img/main/tehrader/khoziev.png" alt="Давид Хозиев">
+                    <h4 class="block-title">Давид Хозиев</h4>
+                    <div class="block-icons"><a href="#">
+                        <svg class="icon">
+                          <use href="./img/main/tehrader/icons/vk.svg#vk"></use>
+                        </svg></a><a href="#">
+                        <svg class="icon">
+                          <use href="./img/main/tehrader/icons/telegram.svg#telegram"></use>
+                        </svg></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="container">
+          <div class="contacts-wrapper">
+            <div class="contacts-about">
+              <div class="contacts-button"><a href="#">Top “Manhattan” place</a></div>
+              <div class="contacts-title">контакты</div>
+            </div>
+            <div class="contacts-items">
+              <div class="contacts-block">
+                <div class="block">
+                  <h3 class="title">Адрес</h3>
+                  <p class="explanation">Набережная реки Фонтанки, 90 (вход в арке с белыми колоннами)</p>
+                </div>
+                <div class="block">
+                  <h3 class="title">телефон</h3><a class="explanation" href="tel:7-812-7131945">+7 (812) 713-1945</a>
+                </div>
+                <div class="block">
+                  <h3 class="title">режим работы</h3>
+                  <p class="explanation">Ежедневно с 12:00 до 06:00</p>
+                </div>
+                <div class="block"><span></span></div>
+                <div class="block">
+                  <h3 class="title">директор</h3>
+                  <p class="explanation">Лидия Эмильевна, +7(921) 963-55-50</p>
+                </div>
+                <div class="block">
+                  <h3 class="title">арт-директор</h3>
+                  <p class="explanation">Илиния Ионашко, +7(981) 989-43-30</p>
+                </div>
+              </div>
+              <div class="contacts-map">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A075fc6d7076d7accf9f447808422e107a4f83e5ad5ed4b157f857a8bd47180fe&amp;source=constructor" width="100%" height="100%"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <p>Copyright © 2022. Все права защищены.</p>
+          <p>Разработано d-e-n.ru</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./libs/jquery.min.js"></script>
+    <script src="./js/scripts/utils.js"></script>
+    <script src="./js/scripts/const.js"></script>
+    <script src="./libs/libs.min.js"></script>
+    <script defer src="./js/scripts/fv.js"></script>
+    <script defer src="./js/scripts/vi.js"></script>
+    <script defer src="./libs/swiper-bundle.min.js"></script>
+    <script src="./js/scripts/mp.js"></script>
+    <script src="./js/scripts/scripts.js"></script>
+  </body>
+</html>
